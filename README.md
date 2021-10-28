@@ -1,4 +1,4 @@
-# consRear3 :smile:
+# findRear :smile:
 ## a tool to construct somatic rearrangements :bowtie:
 
 ### 1. data-preprocessing
