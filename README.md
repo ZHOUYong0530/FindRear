@@ -1,7 +1,7 @@
 # FindRear :smile:
 ## A tool to construct somatic rearrangements :bowtie:
 
-### A. Input file (6 columns are required)
+### A. Input file 
 #### Input_SV_file (6 columns about one SV are required)
 1. SN: sample name
 2. chr_1: the chromosome of low-end breakpoint
