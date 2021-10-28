@@ -1,6 +1,13 @@
 # FindRear :smile:
 ## A tool to construct somatic rearrangements :bowtie:
 
+### Requirement
+* python (>3.7)
+* numpy
+* pandas
+* matplotlib
+* argparse
+
 ### A. Input file 
 #### Input_SV_file (6 columns about one SV are required)
 1. SN: sample name
