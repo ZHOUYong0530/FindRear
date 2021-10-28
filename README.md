@@ -15,10 +15,16 @@
 1. sn: sample name that is consistent with sample name in input_SV_file
 2. link: the bp/kb path 
 
-#### bp/kb file (normalized coverage of windows (200-bp or 10kbp) are required)
+#### bp/kb file (normalized coverage of windows (200-bp or 10kbp))
 1. bp_file: the normalized coverage of non-overlapping windows (200bp)
 2. kp_file: the normalized coverage of non-overlapping windows (10kbp)<br>
-*note: normalzied coverage is obtained from PATCHWORK results.
+
+    *note: 
+
+    a. normalzied coverage is obtained from PATCHWORK results;
+    
+    b. the shape of bp/kp matrix is N and M (N = the number of SV breakpoints; M = 201, 
+    100 windows on the either left or right side of breakpoint) 
 
 #### optional: --type
 1. -type: choose the complex SV type you want to identify, 
