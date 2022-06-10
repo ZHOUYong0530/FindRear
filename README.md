@@ -40,13 +40,20 @@ consisting of complex TD/DEL, fold and unbalanced inversions.
 
 ### B. identify rearrangements (example)<br>
 a. identify fold-back inversion<br>
+```
 python  ../construct_rearrangements.py --type fold-back test.sv test.out bp.list kp.list
-  
+```
+
 b. identify unbalnced inversions<br>
+
+```
 python  ../construct_rearrangements.py --type inv test.sv test.out bp.list kp.list
-	
+```
+
 c. identify TD-del rearrangements<br>
+```
 python ../construct_rearrangements.py --type td-del test.sv test.out bp.list kp.list
+```
 
 ### C. compute the genomic path based on two anchored breakpoints (under development)
 
