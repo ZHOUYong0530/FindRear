@@ -55,10 +55,4 @@ c. identify TD-del rearrangements<br>
 python ../construct_rearrangements.py --type td-del test.sv test.out bp.list kp.list
 ```
 
-### C. compute the genomic path based on two anchored breakpoints (under development)
 
-### D. visualize the SV with coverage (under construction)<br>
-a. visualize simple SV<br>
-b. visualize complex deletions/ TDs<br>
-c. visualize fold-back rearrangements<br>
-d. visualize chromothripsis<br>
